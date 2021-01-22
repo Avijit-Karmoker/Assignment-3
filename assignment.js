@@ -1,5 +1,7 @@
 // https://github.com/Coffee-Ovi/Assignment-3
 
+
+
 //Problem-1
 
 function kilometerToMeter(km) {
@@ -12,6 +14,13 @@ function kilometerToMeter(km) {
 
 var meter = kilometerToMeter(20);
 console.log(meter); //for showing output.
+
+
+
+
+
+
+
 
 //Problem-2
 
@@ -39,6 +48,12 @@ function budgetCalculator(clock, phone, laptop) {
 }
 var totalAmount = budgetCalculator(7, 5, 2);
 console.log(totalAmount);
+
+
+
+
+
+
 
 //Problem-3
 
@@ -68,6 +83,15 @@ function hotelCost(days){
 
 var totalCost = hotelCost(71);
 console.log(totalCost);
+
+
+
+
+
+
+
+
+
 
 //Problem-4
 
