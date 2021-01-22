@@ -42,5 +42,33 @@ console.log(totalAmount);
 
 //Problem-3
 
-function
+function hotelCost(days){
+    var rent = 0;
+    //if we take the days value from 0-10 then here we find out a result
+    if (days <= 10) {
+        rent = days * 100;
+    }
+    //if we take the days value from 10-20 then here we find out a result
+    else if (days <= 20) {
+        var firstHalfDays = 10 * 100;
+        var remaining = days - 10;
+        var secondHalfDays = remaining * 80;
+        rent = firstHalfDays + secondHalfDays;
+    }
+    //if we take the days value from 20 to more then here we find out a result
+    else{
+        var firstHalfDays = 10*100;
+        var secondHalfDays = 10*80;
+        var remaining = days-20;
+        var lastHalfDays = remaining*50;
+        rent = firstHalfDays + secondHalfDays + lastHalfDays;
+    }
+    return rent;
+}
+
+var totalCost = hotelCost(71);
+console.log(totalCost);
+
+//Problem-4
+
 
