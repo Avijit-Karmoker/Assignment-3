@@ -73,8 +73,9 @@ console.log(totalCost);
 
 function megaFriend(arr){
     var word = "";
+    ///here we creat a for loop for
     for (var i=0; i<arr.length; i++){
-        if(word.length < arr[i].length){
+        if(word.length < arr[i].length){      //here we try to find out the big array word.
             word = arr[i];
         }
     }
